@@ -7,6 +7,8 @@ function Landing(){
   return (
     <div>
           <h1>Welcome</h1>
+
+          <table>Hiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii</table>
     </div>
   )
   
