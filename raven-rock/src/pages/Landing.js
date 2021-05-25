@@ -1,7 +1,5 @@
 import React from "react";
-import { Header } from 'semantic-ui-react'
-import { Container } from 'semantic-ui-react'
-import { Button, Image, Modal } from 'semantic-ui-react'
+import { Button, Image, Modal, Container, Header, Item} from 'semantic-ui-react'
 
 function Landing(){
 
@@ -139,7 +137,37 @@ function Landing(){
     </Modal>
 
     {/* End Of Modal Three */}
-      
+
+    {/* Start of Items */}
+
+    <Item.Group>
+    <Item>
+      <Item.Image size='tiny' src='/images/wireframe/image.png' />
+
+      <Item.Content>
+        <Item.Header as='a'>Header</Item.Header>
+        <Item.Meta>Description</Item.Meta>
+        <Item.Description>
+          <Image src='/images/wireframe/short-paragraph.png' />
+        </Item.Description>
+        <Item.Extra>Additional Details</Item.Extra>
+      </Item.Content>
+    </Item>
+
+    <Item>
+      <Item.Image size='tiny' src='/images/wireframe/image.png' />
+
+      <Item.Content>
+        <Item.Header as='a'>Header</Item.Header>
+        <Item.Meta>Description</Item.Meta>
+        <Item.Description>
+          <Image src='/images/wireframe/short-paragraph.png' />
+        </Item.Description>
+        <Item.Extra>Additional Details</Item.Extra>
+      </Item.Content>
+    </Item>
+  </Item.Group>
+    
 
     </div>
   )
